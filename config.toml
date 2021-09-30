@@ -21,7 +21,7 @@ theme = "hugo-elate-theme"
     brand = ""
     img = "SiyaNoku.png"
     home = ""
-    work = "Gallery2"
+    work = ""
     testimonials = "Testimonials"
     services = ""
     about = ""
@@ -39,17 +39,17 @@ theme = "hugo-elate-theme"
 
 
       # prepended links
-    [[menu.prepend]]
-     url = "/gallery/"
-     name = "Gallery"
-     weight = 2
-     pre ="external"
+    #[[menu.prepend]]
+     #url = "/gallery/"
+     #name = "Gallery"
+     #weight = 2
+     #pre ="external"
 
       # prepended links
     [[menu.prepend]]
      url = "/home/"
      name = "Companies"
-     weight = 3
+     weight = 2
      pre ="active"
      identifier = "services"
 
@@ -59,13 +59,13 @@ theme = "hugo-elate-theme"
      name = "About"
      pre ="active"
      identifier = "about"
-     weight = 4
+     weight = 3
 
       # prepended links
     [[menu.prepend]]
       url = ""
      name = "Contact Us"
-     weight = 5
+     weight = 4
      pre ="active"
      identifier = "contact"
 
