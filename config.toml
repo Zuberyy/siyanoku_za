@@ -77,10 +77,10 @@ theme = "hugo-elate-theme"
 
 
       # prepended links
-    [[menu.postpend]]
-     url = "/gallery/"
-     name = "Gallery"
-     weight = 2
+    #[[menu.postpend]]
+     #url = "/gallery/"
+     #name = "Gallery"
+     #weight = 2
      
 
       # prepended links
@@ -197,7 +197,7 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Gallery"
     description = "View of our past projects from all our companies "
     
@@ -307,7 +307,7 @@ theme = "hugo-elate-theme"
 
   # Work2 section
   [params.work2]
-    enable = true
+    enable = false
     title = "Gallery"
     description = "View of our past projects from all our companies "
     
@@ -384,7 +384,7 @@ theme = "hugo-elate-theme"
       subtitle = ""
 
       [params.work3]
-    enable = true
+    enable = false
     title = "Gallery"
     description = "View of our past projects from all our companies "
     
