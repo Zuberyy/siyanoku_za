@@ -11,7 +11,7 @@ theme = "hugo-elate-theme"
   author = "Pantomath Application Division "
   description = "Keeping Our Promise"
   og_image = "/images/SiyaNoku1.png"
-  email = "Siyanoku@gmail"
+  email = "info@siyanoku.co.za"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   #googleMapsApiKey = ""
