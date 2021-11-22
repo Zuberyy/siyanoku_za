@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Siyanoku Trading Enterprise</title>
-    <link>https://siyanoku.com/</link>
+    <link>https://www.siyanoku.com/</link>
     <description>Recent content on Siyanoku Trading Enterprise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Aug 2021 15:49:44 +0200</lastBuildDate>
     
-	<atom:link href="https://siyanoku.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.siyanoku.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home</title>
-      <link>https://siyanoku.com/home/home/</link>
+      <link>https://www.siyanoku.com/home/home/</link>
       <pubDate>Fri, 27 Aug 2021 15:49:44 +0200</pubDate>
       
-      <guid>https://siyanoku.com/home/home/</guid>
+      <guid>https://www.siyanoku.com/home/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery</title>
-      <link>https://siyanoku.com/gallery/work/</link>
+      <link>https://www.siyanoku.com/gallery/work/</link>
       <pubDate>Thu, 26 Aug 2021 15:49:44 +0200</pubDate>
       
-      <guid>https://siyanoku.com/gallery/work/</guid>
+      <guid>https://www.siyanoku.com/gallery/work/</guid>
       <description>Navigation [params.navigation] brand = &amp;quot;&amp;rdquo; img = &amp;ldquo;SiyaNoku.png&amp;rdquo; home = &amp;ldquo;Home&amp;rdquo; work = &amp;ldquo;Gallery&amp;rdquo; testimonials = &amp;ldquo;Testimonials&amp;rdquo; services = &amp;ldquo;Companies&amp;rdquo; about = &amp;ldquo;About&amp;rdquo; contact = &amp;ldquo;Contact&amp;rdquo;
 # You can add custom links before or after the default links # Assign a weight to define the order # prepended links [[menu.prepend]] url = &amp;quot;/work/&amp;quot; name = &amp;quot;Gallery&amp;quot; weight = 1 # postpended links #[[menu.postpend]] #url = &amp;quot;http://gohugo.io&amp;quot; #weight = 5  Intro section Available icons: http://simplelineicons.</description>
     </item>
     
     <item>
       <title>Gallery</title>
-      <link>https://siyanoku.com/gallery_page2/work/</link>
+      <link>https://www.siyanoku.com/gallery_page2/work/</link>
       <pubDate>Thu, 26 Aug 2021 15:49:44 +0200</pubDate>
       
-      <guid>https://siyanoku.com/gallery_page2/work/</guid>
+      <guid>https://www.siyanoku.com/gallery_page2/work/</guid>
       <description>Navigation [params.navigation] brand = &amp;quot;&amp;rdquo; img = &amp;ldquo;SiyaNoku.png&amp;rdquo; home = &amp;ldquo;Home&amp;rdquo; work = &amp;ldquo;Gallery&amp;rdquo; testimonials = &amp;ldquo;Testimonials&amp;rdquo; services = &amp;ldquo;Companies&amp;rdquo; about = &amp;ldquo;About&amp;rdquo; contact = &amp;ldquo;Contact&amp;rdquo;
 # You can add custom links before or after the default links # Assign a weight to define the order # prepended links [[menu.prepend]] url = &amp;quot;/work/&amp;quot; name = &amp;quot;Gallery&amp;quot; weight = 1 # postpended links #[[menu.postpend]] #url = &amp;quot;http://gohugo.io&amp;quot; #weight = 5  Intro section Available icons: http://simplelineicons.</description>
     </item>
     
     <item>
       <title>Gallery</title>
-      <link>https://siyanoku.com/gallery_page3/work/</link>
+      <link>https://www.siyanoku.com/gallery_page3/work/</link>
       <pubDate>Thu, 26 Aug 2021 15:49:44 +0200</pubDate>
       
-      <guid>https://siyanoku.com/gallery_page3/work/</guid>
+      <guid>https://www.siyanoku.com/gallery_page3/work/</guid>
       <description>Navigation [params.navigation] brand = &amp;quot;&amp;rdquo; img = &amp;ldquo;SiyaNoku.png&amp;rdquo; home = &amp;ldquo;Home&amp;rdquo; work = &amp;ldquo;Gallery&amp;rdquo; testimonials = &amp;ldquo;Testimonials&amp;rdquo; services = &amp;ldquo;Companies&amp;rdquo; about = &amp;ldquo;About&amp;rdquo; contact = &amp;ldquo;Contact&amp;rdquo;
 # You can add custom links before or after the default links # Assign a weight to define the order # prepended links [[menu.prepend]] url = &amp;quot;/work/&amp;quot; name = &amp;quot;Gallery&amp;quot; weight = 1 # postpended links #[[menu.postpend]] #url = &amp;quot;http://gohugo.io&amp;quot; #weight = 5  Intro section Available icons: http://simplelineicons.</description>
     </item>

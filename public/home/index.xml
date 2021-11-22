@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Siyanoku Trading Enterprise</title>
-    <link>https://siyanoku.com/home/</link>
+    <link>https://www.siyanoku.com/home/</link>
     <description>Recent content on Siyanoku Trading Enterprise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Aug 2021 15:49:44 +0200</lastBuildDate>
     
-	<atom:link href="https://siyanoku.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.siyanoku.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home</title>
-      <link>https://siyanoku.com/home/home/</link>
+      <link>https://www.siyanoku.com/home/home/</link>
       <pubDate>Fri, 27 Aug 2021 15:49:44 +0200</pubDate>
       
-      <guid>https://siyanoku.com/home/home/</guid>
+      <guid>https://www.siyanoku.com/home/home/</guid>
       <description></description>
     </item>
     
