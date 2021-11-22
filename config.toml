@@ -39,11 +39,11 @@ theme = "hugo-elate-theme"
 
 
       # prepended links
-    #[[menu.prepend]]
-     #url = "/gallery/"
-     #name = "Gallery"
-     #weight = 2
-     #pre ="external"
+    [[menu.prepend]]
+     url = "/gallery/"
+     name = "Gallery"
+     weight = 2
+     pre ="external"
 
       # prepended links
     [[menu.prepend]]
@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
      weight = 2
      pre ="active"
      identifier = "services"
-
+ 
       # prepended links
     [[menu.prepend]]
      url = "/home/"
@@ -185,9 +185,9 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = false
+    enable = true
     title = "Gallery"
-    description = "View of our past projects from all our companies "
+    description = ""
     
 
     [[params.work.row]]
@@ -196,108 +196,15 @@ theme = "hugo-elate-theme"
       title = ""
       subtitle = ""
 
-    [[params.work.row]]
-      img = "SN2.jpg"
-      alt = "Image2"
-      title = ""
-      subtitle = ""
-
-    [[params.work.row]]
-      img = "SN3.jpg"
-      alt = "Image3"
-      title = ""
-      subtitle = ""
-
-    [[params.work.row]]
-      img = "SN4.jpg"
-      alt = "Image4"
-      title = ""
-      subtitle = ""
-
-    [[params.work.row]]
-      img = "SN5.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-
-      [[params.work.row]]
-      img = "SN6.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
+    
       
-      [[params.work.row]]
-      img = "SN7.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN8.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN9.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN10.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN11.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN12.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN13.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN14.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN15.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN16.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN17.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN18.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work.row]]
-      img = "SN19.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
       
 
   # Work2 section
   [params.work2]
-    enable = false
+    enable = true
     title = "Gallery"
-    description = "View of our past projects from all our companies "
+    description = ""
     
 
     [[params.work2.row]]
@@ -335,11 +242,7 @@ theme = "hugo-elate-theme"
       alt = "Image5"
       title = ""
       subtitle = ""
-      [[params.work2.row]]
-      img = "SN6.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
+      
       [[params.work2.row]]
       img = "SN7.jpg"
       alt = "Image5"
@@ -355,26 +258,12 @@ theme = "hugo-elate-theme"
       alt = "Image5"
       title = ""
       subtitle = ""
-      [[params.work2.row]]
-      img = "SN10.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work2.row]]
-      img = "SN11.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
-      [[params.work2.row]]
-      img = "SN12.jpg"
-      alt = "Image5"
-      title = ""
-      subtitle = ""
+      
 
       [params.work3]
-    enable = false
+    enable = true
     title = "Gallery"
-    description = "View of our past projects from all our companies "
+    description = " "
     
 
     [[params.work3.row]]
@@ -392,6 +281,40 @@ theme = "hugo-elate-theme"
     [[params.work3.row]]
       img = "SN3.jpg"
       alt = "Image3"
+      title = ""
+      subtitle = ""
+
+      [[params.work3.row]]
+      img = "SN4.jpg"
+      alt = "Image4"
+      title = ""
+      subtitle = ""
+
+    [[params.work3.row]]
+      img = "SN5.jpg"
+      alt = "Image5"
+      title = ""
+      subtitle = ""
+
+      [[params.work3.row]]
+      img = "SN6.jpg"
+      alt = "Image5"
+      title = ""
+      subtitle = ""
+   
+      [[params.work3.row]]
+      img = "SN7.jpg"
+      alt = "Image5"
+      title = ""
+      subtitle = ""
+      [[params.work3.row]]
+      img = "SN8.jpg"
+      alt = "Image5"
+      title = ""
+      subtitle = ""
+      [[params.work3.row]]
+      img = "SN9.jpg"
+      alt = "Image5"
       title = ""
       subtitle = ""
 
@@ -462,7 +385,8 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-building-o", "Rocky Drift White River, 1240"],
+        ["icon-building-o", "Khokhamoya Industrial Park, Portion 10"],
+        ["", " ERF  548 Rocky's Drift, Ext 10 White River, 1240"],
         ["icon-phone", "(013) 591-2783"],
         ["icon-envelope", "info@siyanoku.co.za"],
         
@@ -471,13 +395,19 @@ theme = "hugo-elate-theme"
     name = "Name*"
     email = "Email*"
     company = "Contact Company e.g Plant Hire"
+    machine = "Machinery"
+
+
+
+    
+
     message = "Message*"
     button = "Send message"
 
   # Footer section
   [params.footer]
-    enable = false
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    enable = true
+    copyright = '&copy; Siyanoku Trading Enterprise All Rights Reserved. <br>Developed by Zubery Pty Ltd'
     links = [
         ["icon-twitter", "#twitter"],
         ["icon-facebook", "#facebook"],

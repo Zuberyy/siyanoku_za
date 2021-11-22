@@ -73,6 +73,38 @@
 
 
 <script src="js/modernizr-2.6.2.min.js"></script>
+<script>
+   document.getElementById('company').onchange = function () {
+   if(this.value == "Siyanoku Plant Hire")
+   {
+          document.getElementById('machine_chosen').style.removeProperty('pointer-events');
+
+
+     }
+     else
+     {
+            document.getElementById('machine_chosen').style.setProperty('pointer-events', 'none');
+                    
+
+     }
+      } 
+   </script>
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+    
+<script> 
+      $(".chosen-select").chosen({
+           no_results_text: "Oops, nothing found!"
+         })
+        
+</script>
+
+
+
+
 
 
 
@@ -94,6 +126,8 @@
                     
                         <li><a class="active" href="/home/" data-nav-section="services"><span>Companies</span></a></li>
                     
+                        <li><a class="external" href="/gallery/" data-nav-section=""><span>Gallery</span></a></li>
+                    
                         <li><a class="active" href="/home/" data-nav-section="about"><span>About</span></a></li>
                     
                         <li><a class="active" href="" data-nav-section="contact"><span>Contact Us</span></a></li>
@@ -113,7 +147,7 @@
 	  <div class="video">
 		
 		
-	  
+		<img src="images/SNB.jpg" alt="sample" width="1480" height="900">
 	  </div>
 	<div class="gradient">
 		
@@ -270,7 +304,9 @@
 				<h3></h3>
 				<ul class="fh5co-contact-info">
 				
-					<li class="fh5co-contact-address "><i class="icon-building-o"></i>Rocky Drift White River, 1240</li>
+					<li class="fh5co-contact-address "><i class="icon-building-o"></i>Khokhamoya Industrial Park, Portion 10</li>
+				
+					<li class="fh5co-contact-address "><i class=""></i>ERF  548 Rocky&rsquo;s Drift, Ext 10 White River, 1240</li>
 				
 					<li class="fh5co-contact-address "><i class="icon-phone"></i>(013) 591-2783</li>
 				
@@ -284,7 +320,7 @@
 				<div class="form-group ">
 					
 					<label for="name" class="sr-only">Name*</label>
-					<input id="name" class="form-control" name="name" placeholder="Name*" required value="" type="text">
+					<input id="name" class="form-control" name="Name" placeholder="Name*" required value="" type="text">
 					
 				</div>
 				<div class="form-group ">
@@ -293,19 +329,137 @@
 					<input id="email" class="form-control" name="_replyto" placeholder="Email*" required value=" " type="email">
 					
 				</div>
-				<div class="form-group ">
+				<div class="form-group " >
 					
 					<label for="company" class="sr-only">Contact Company e.g Plant Hire</label>
-					<select name = "company" class="form-control" id= "company">
-
+					<select name = "Company" class="form-control" id = "company">
+						<option selected="true" disabled="disabled">--Select Company--</option>
 						<option value= "Siyanoku Trading Enterprise">Siyanoku Trading Enterprise</option>
 						<option value= "Siyanoku Plant Hire">Siyanoku Plant Hire</option>
 						<option value= "Siyanoku Energy"> Siyanoku Energy</option>
 						
 					</select>
+
 					
+					
+					
+
 					
 				</div>
+				<div class= "form-group" >
+					<div class="controls" style ="pointer-events: none " id = "machine_chosen" style="width: 550px;">
+					
+				<label for="machine" class="sr-only">Machinery</label>
+					
+				<h4 class="" style="margin: 0 0 5px 0;" >SELECT ONE OR MORE MACHINERY FOR SIYANOKU PLANT HIRE</h4>
+		
+		
+				<div style="float: left;margin-right:10px">	
+			<table >
+    <tr >
+      <td><input type="checkbox"  name="machine_1" value="TLB 4x4 with a bucket"> TLB 4x4 with a bucket
+    </tr>
+  </table>
+  <table>
+  <tr>
+	<td><input type="checkbox" name="machine_2" value="TLB 4x4 with a pecker"> TLB 4x4 with a pecker
+  </tr>
+</table>
+<table>
+	<tr>
+	  <td><input type="checkbox" name="machine_3" value="Tipper truck 10 cubic meters"> Tipper truck 10 cubic meters
+	</tr>
+  </table>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_4" value="Water tanker 18 000L"> Water tanker 18 000L
+	</tr>
+  </table>
+
+<table>
+	<tr>
+	  <td><input type="checkbox" name="machine_5" value="Grader"> Grader
+	</tr>
+  </table>
+
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_6" value="Smooth drum Roller"> Smooth drum Roller
+	</tr>
+  </table>
+</div>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_7" value="Excavator 30ton with a bucket"> Excavator 30ton with a bucket
+	</tr>
+  </table>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_8" value="Excavator 30ton with a pecker"> Excavator 30ton with a pecker
+	</tr>
+  </table>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_9" value="Front end loader"> Front end loader
+	</tr>
+  </table>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_10" value="Dozer D4"> Dozer D4
+	</tr>
+  </table>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_11" value="Dozer D5"> Dozer D5
+	</tr>
+  </table>
+  <table>
+	<tr>
+	  <td><input type="checkbox" name="machine_12" value="Dozer D6"> Dozer D6
+	</tr>
+  </table>
+
+  
+
+				<script>
+					var validateForm = function() {
+  var checks = $('input[type="checkbox"]:checked').map(function() {
+    return $(this).val();
+  }).get()
+  console.log(checks);
+  return false;
+}
+				</script>
+
+<script>
+	document.getElementById('company').onchange = function () {
+	if(this.value == "Siyanoku Plant Hire")
+	{
+		   document.getElementById('machine_chosen').style.removeProperty('pointer-events');
+ 
+ 
+	  }
+	  else
+	  {
+			 document.getElementById('machine_chosen').style.setProperty('pointer-events', 'none');
+					 
+ 
+	  }
+	   } 
+	</script>
+
+
+
+<script>
+	
+</script>
+
+	
+
+				
+
+
+			    </div>
 				<div class="form-group ">
 					
 					<label for="message" class="sr-only">Message*</label>
@@ -326,6 +480,31 @@
 
 
         
+
+        
+        		<footer id="footer" role="contentinfo">
+		
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p>© Siyanoku Trading Enterprise All Rights Reserved. <!-- raw HTML omitted -->Developed by Zubery Pty Ltd</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+					
+						<li><a href="#twitter"><i class="icon-twitter"></i></a></li>
+					
+						<li><a href="#facebook"><i class="icon-facebook"></i></a></li>
+					
+						<li><a href="#youtube"><i class="icon-youtube"></i></a></li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 
         
 
