@@ -409,7 +409,5 @@ theme = "hugo-elate-theme"
     enable = true
     copyright = '&copy; Siyanoku Trading Enterprise All Rights Reserved. <br>Developed by Zubery Pty Ltd'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        
       ]
