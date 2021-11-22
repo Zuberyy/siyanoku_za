@@ -1,5 +1,5 @@
 
-baseURL = "https://www.siyanoku.com"
+baseURL = "www.siyanoku.com"
 languageCode = "en-us"
 title = "Siyanoku Trading Enterprise"
 theme = "hugo-elate-theme"
