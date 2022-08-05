@@ -404,6 +404,7 @@ theme = "hugo-elate-theme"
    # message = "Message*"
    #button = "Send message"
 
+
   # Footer section
   [params.footer]
     enable = true
