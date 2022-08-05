@@ -1,5 +1,4 @@
-
-baseURL = "www.siyanoku.com"
+baseURL = "https://siyanoku.com"
 languageCode = "en-us"
 title = "Siyanoku Trading Enterprise"
 theme = "hugo-elate-theme"
@@ -9,7 +8,7 @@ theme = "hugo-elate-theme"
   
 
   # Meta
-  author = "Pantomath Application Division "
+  author = "Zubery Pty Ltd"
   description = "Keeping Our Promise"
   og_image = "/images/SiyaNoku1.png"
   email = "info@siyanoku.co.za"
@@ -393,22 +392,24 @@ theme = "hugo-elate-theme"
         
       ]
 
-    name = "Name*"
-    email = "Email*"
-    company = "Contact Company e.g Plant Hire"
-    machine = "Machinery"
+    #name = "Name*"
+    #email = "Email*"
+    #company = "Contact Company e.g Plant Hire"
+    #machine = "Machinery"
 
 
 
     
 
-    message = "Message*"
-    button = "Send message"
+   # message = "Message*"
+   #button = "Send message"
 
   # Footer section
   [params.footer]
     enable = true
     copyright = '&copy; Siyanoku Trading Enterprise All Rights Reserved. <br>Developed by Zubery Pty Ltd'
     links = [
-        
+        ["icon-twitter", "#twitter"],
+        ["icon-facebook", "#facebook"],
+        ["icon-youtube", "#youtube"]
       ]

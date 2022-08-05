@@ -1052,7 +1052,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 #fh5co-contact .fh5co-contact-info li i {
-  position: absolute;
+   /*position: absolute;*/
   top: .2em;
   left: 0;
 }
